@@ -17,6 +17,7 @@ const ExpenseList = () => {
                     cost={ele.cost}
                     id={ele.id}
                     name={ele.name}
+                    key={ele.id}
                 />
             ))}
         </ul>

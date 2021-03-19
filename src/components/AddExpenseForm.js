@@ -5,7 +5,7 @@ const AddExpenseForm = () => {
         <form>
             <div className='row'>
                 <div className='col-sm'>
-                    <label for='name'>Name</label>
+                    <label htmlFor='name'>Name</label>
                     <input
                         required='required'
                         type='text'
@@ -14,7 +14,7 @@ const AddExpenseForm = () => {
                     />
                 </div>
                 <div className='col-sm'>
-                    <label for='cost'>Name</label>
+                    <label htmlFor='cost'>Name</label>
                     <input
                         required='required'
                         type='number'
