@@ -1,12 +1,12 @@
 import React from 'react'
 
-import AddExpenseForm from './AddExpenseForm'
-import Budget from './Budget'
-import ExpenseTotal from './ExpenseTotal'
-import Remaining from './Remaining'
+import AddExpenseForm from './components/AddExpenseForm'
+import Budget from './components/Budget'
+import ExpenseTotal from './components/ExpenseTotal'
+import Remaining from './components/Remaining'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import ExpenseList from './ExpenseList'
+import ExpenseList from './components/ExpenseList'
 
 const App = () => {
     return (
