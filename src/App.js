@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const App = () => {
     return (
         <AppProvider>
-            <div className='container'>
+            <div className='container mb-5'>
                 <h1 className='mt-3'>Budget tracker app</h1>
 
                 <div className='row mt-3'>
